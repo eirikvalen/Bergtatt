@@ -1,5 +1,15 @@
 package com.e.gruppe27.ui.kart
 
+//KILDER
+//Polyline, point and poly graphics
+//https://developers.arcgis.com/labs/android/display-point-line-and-polygon-graphics/
+
+//Layers on map
+//https://developers.arcgis.com/labs/android/add-layers-to-a-map/
+
+//Simple 2D Map
+//https://developers.arcgis.com/labs/android/create-a-starter-app/
+
 
 import android.app.Application
 import android.graphics.Color
