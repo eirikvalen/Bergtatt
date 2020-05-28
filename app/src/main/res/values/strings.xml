@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Navigasjon</string>
+    <string name="turinformasjon_tittel">Turinformasjon</string>
+    <string name="innhold_fill">innhold</string>
+    <string name="lorem_ispum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eros orci, volutpat a magna pellentesque, dictum accumsan augue. Suspendisse id ligula varius, laoreet justo eu, vulputate arcu. Nam auctor purus nulla, in mollis arcu euismod sed. Etiam et nibh sagittis, tempus nulla et, sollicitudin risus. Nulla scelerisque eros id diam dictum hendrerit. Nullam nunc tortor, iaculis et ullamcorper in, aliquet ut tortor. Nulla neque enim, luctus sed dui vitae, pharetra convallis lorem.</string>
+    <string name="siste_oppdatering">Sist oppdatert:</string>
+    <string name="skred_og_vaer_tittel">Skred- og værvarsel</string>
+
+    <string name="bergtatt_tittel">Bergtatt</string>
+    <string name="landingP_neste">NESTE</string>
+    <string name="landingP_gotIt">FERDIG</string>
+
+
+    <string name="slide_1_title">Velkommen!</string>
+    <string name="slide_1_desc">Dette er en app som vil gjøre det lettere å komme seg ut på tur! \n\nVi ønsker å tilgjengeliggjøre skred- og værdata for enhver turgåer, som et verktøy for å velge trygge turer</string>
+
+    <string name="slide_2_title">Fjellvettregler</string>
+    <string name="slide_2_fjell_1">1. Planlegg turen og meld fra hvor du går \n2. Tilpass turen etter evne og forhold \n3. Ta hensyn til vær- og skredvarsel \n4. Vær forberedt på uvær og kulde, selv på korte turer \n5. Ta med nødvendig utstyr for å kunne hjelpe deg selv og andre \n6. Ta trygge veivalg. Gjenkjenn skredfarlig terreng og usikker is \n7. Bruk kart og kompass. Vit alltid hvor du er \n8. Vend i tide, det er ingen skam å snu \n9. Spar på kreftene og søk ly om nødvendig</string>
+
+
+    <string name="slide_3_title">Husk!</string>
+    <string name="slide_3_desc_1">Det bes om at enhver tar hensyn og vurderinger på tur. Dette er ikke en fasit, da regionale forskjeller kan føre til ustabile forhold. \nHusk å si ifra til dine nærmeste når du skal ut. \n\nGod tur!</string>
+    <string name="ingen_registrert_data">Ingen registrert data…</string>
+    <string name="vaer_tittel">Vær i fjellet</string>
+    <string name="skred_tittel">Skredfare nivå</string>
+    <string name="skredproblem">Skredproblem:</string>
+    <string name="tips">Tips:</string>
+    <string name="utvidet_skredvarsel">Utvidet skredvarsel:</string>
+
+
+    <!-- Dette er data for bratthet WMS-layer -->
+    <string name="wms_url_bratthet">https://gis3.nve.no/map/services/Bratthet/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</string>
+    <string name="bratthet_layer1">Bratthet_snoskred</string>
+
+    <!-- Dette er data for snøskred aktsomhetsområder WMS-layer -->
+
+    <!-- Dette er data for Norske kartverk sitt topografiske WMS-layer -->
+    <string name="wms_url_topografisk">https://openwms.statkart.no/skwms1/wms.topo4?service=wms&amp;request=getcapabilities</string>
+    <string name="topografisk_layer1">topo4_WMS</string>
+
+    <string name ="ny_tur_favoritter">Du har en ny tur i favoritter!</string>
+    <string name="favoritt_slettet">Turen er fjernet fra favoritter</string>
+    <string name="feil_lagre_turer">Ojda, noe gikk galt!</string>
+
+    <string name="ingen_data">Ingen data tilgjengelig</string>
+
+    <string name="sorter_etter">Sorter turer etter</string>
+    <string name="lukk">Lukk</string>
+    <string name="ingen_sortering">Ingen favoritter å sortere</string>
+
+    <string name="regionalt_skredvarsel">Regionalt skredvarsel</string>
+    <string name="gjeldende_region">Skredvarsel for region:</string>
+    <string name="skredfare">Skredfare: %1$s</string>
+    <string name="tur_distanse">%1$.1f km</string>
+    <string name="temperatur">Temperatur:</string>
+    <string name="temp_min_max">Min %1$s C, Maks: %2$s C: </string>
+    <string name="vind">Vind:</string>
+    <string name="vindinfo">%1$s fra %2$s, hasighet opp mot %3$s m/s</string>
+    <string name="sikt">Sikt:</string>
+    <string name="siktinfo">Sikt: %1$s%%</string>
+    <string name="les_mer">Les mer</string>
+    <string name="idag">Idag</string>
+    <string name="favoritt_velger">favoritt-velger</string>
+    <string name="tur">Tur</string>
+    <string name="skred_og_v_r">Skred og vær</string>
+    <string name="kart">Kart</string>
+    <string name="tilbakeknapp">Tilbakeknapp</string>
+    <string name="utforsk_turer">Utforsk turer</string>
+    <string name="mine_turer">Mine turer</string>
+    <string name="mangler_internett">Ojda, noe gikk galt! \n\nMangler internettforbindelse..</string>
+    <string name="pr_v_igjen">Prøv igjen</string>
+    <string name="internett_icon">internett icon</string>
+    <string name="bratthet">Bratthet</string>
+    <string name="topo">Turkart</string>
+    <string name="turinfo">Turinfo</string>
+    <string name="skredvarsel">Skredvarsel</string>
+    <string name="lukk_applikasjonen_og_pr_v_igjen">Lukk applikasjonen og prøv igjen</string>
+
+
+    <!-- Dette er navn på Tabs som hentes i AppBarLayoutFragment -->
+    <string-array name="tab_titler">
+        <item>Tur</item>
+        <item>Skred og vær</item>
+        <item>Kart</item>
+    </string-array>
+
+    <!--Dialog boks items of choice-->
+    <string-array name="dialog_items">
+        <item>Lengde</item>
+        <item>Vanskelighetsgrad</item>
+        <item>Område</item>
+    </string-array>
+
+
+</resources>

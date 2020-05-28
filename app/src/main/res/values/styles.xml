@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/figmaGronn</item>
+        <item name="colorPrimaryDark">@color/figmaBlack</item>
+        <item name="colorAccent">@color/bakgrunnFarge</item>
+    </style>
+
+    <!-- Dark application theme. -->
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/figmaBlack</item>
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+</resources>

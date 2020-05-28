@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bakgrunn_lys_v2_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:textColor="#20272B"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway"
+            android:text="@string/regionalt_skredvarsel"
+            android:textSize="28sp" />
+
+
+        <LinearLayout
+            android:id="@+id/skredRegionContainer"
+            android:divider="?dividerHorizontal"
+            android:showDividers="middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

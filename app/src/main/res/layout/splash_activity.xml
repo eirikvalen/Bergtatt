@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/splashBilde"
+        android:src="@drawable/ic_logo_app_ikon_hc"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:civ_border_color="@android:color/darker_gray"
+        app:civ_border_width="0.5dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/splashTekst"
+        android:textColor="#20272B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/bergtatt_tittel"
+        android:textSize="50sp" />
+
+</LinearLayout>

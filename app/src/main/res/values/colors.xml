@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Basis farger-->
+    <color name="bakgrunnFarge">#F7F7F7</color>
+    <color name="figmaHvit">#FFFFFF</color>
+
+    <!--Farge til tekst og morke omrader-->
+    <color name="figmaBlack">#20272B</color>
+
+    <!--Valgte elementer farge-->
+    <color name="figmaGronn">#66826E</color>
+
+    <!--     Dark mode varianter     -->
+    <color name="dark_jungle_green">#0A191B</color>
+    <color name="outer_space">#213032</color>
+    <color name="steel_teal">#789297</color>
+
+    <!--Farge på Dots-->
+    <color name="dots_aktivert">#FFFFFF</color>
+    <color name="dots_innaktiv">#D3D3D3</color>
+</resources>
+

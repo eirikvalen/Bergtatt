@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alleTurer"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="@string/utforsk_turer" />
+
+    <item
+        android:id="@+id/navigation_skredvalsel"
+        android:icon="@drawable/ic_warning_black_24dp"
+        android:title="@string/skredvarsel" />
+
+    <item
+        android:id="@+id/navigation_kart"
+        android:icon="@drawable/ic_map"
+        android:title="@string/kart" />
+
+    <item
+        android:id="@+id/navigation_mineTurer"
+        android:icon="@drawable/ic_mineturer"
+        android:title="@string/mine_turer" />
+
+
+</menu>
