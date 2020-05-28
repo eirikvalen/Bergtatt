@@ -1,5 +1,11 @@
 package com.e.gruppe27.ui
 
+/*
+KILDE
+
+Migrate from ViewPager to ViewPager2
+    - https://developer.android.com/training/animation/vp2-migration
+ */
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter

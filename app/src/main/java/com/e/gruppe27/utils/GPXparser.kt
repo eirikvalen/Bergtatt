@@ -1,5 +1,12 @@
 package com.e.gruppe27.utils
 
+/*
+KILDE
+
+GPX-parser
+    - http://android-coding.blogspot.com/2013/01/get-latitude-and-longitude-from-gpx-file.html
+ */
+
 import android.location.Location
 import org.w3c.dom.Document
 import org.xml.sax.InputSource
